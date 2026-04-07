@@ -8,12 +8,12 @@ const Template: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Template</IonTitle>
+          <IonTitle>ABOUT</IonTitle>
         </IonToolbar>
       </IonHeader>
 
       <IonContent fullscreen>
-        <h1>Template</h1>
+        <h1>ABOUT</h1>
       </IonContent>
     </IonPage>
   );
