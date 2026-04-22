@@ -1,28 +1,31 @@
 import {
+  IonButton,
   IonButtons,
   IonContent,
   IonHeader,
   IonMenuButton,
   IonPage,
+  IonRouterOutlet,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
 
-const Favorites: React.FC = () => {
+const About: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonMenuButton></IonMenuButton>
-            <IonTitle></IonTitle>
+            <IonMenuButton />
           </IonButtons>
+          <IonTitle>About</IonTitle>
         </IonToolbar>
-        <IonContent>
-          <h1>Favorites</h1>
-        </IonContent>
       </IonHeader>
+
+      <IonContent className="ion-padding">
+        <h1>ABOUT</h1>
+      </IonContent>
     </IonPage>
   );
 };
-export default Favorites;
+export default About;
